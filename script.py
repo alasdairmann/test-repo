@@ -4,5 +4,4 @@ from os import rename
 
 import requests
 
-name = "xxx"
-print("Hello,", name)
+r = requests.get("https://coreyms.com")
